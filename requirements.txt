@@ -1,0 +1,16 @@
+Flask
+openai
+requests
+httpx
+python-dotenv
+jinja2
+
+# PDF and document handling
+pdfplumber
+python-docx
+fpdf
+fpdf2
+reportlab
+
+# Optional for PDF generation via HTML (if used)
+pdfkit
