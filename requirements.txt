@@ -14,3 +14,4 @@ reportlab
 
 # Optional for PDF generation via HTML (if used)
 pdfkit
+python-dotenv

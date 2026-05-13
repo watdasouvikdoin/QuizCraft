@@ -6,8 +6,9 @@ import csv
 from werkzeug.utils import secure_filename
 import requests
 from fpdf import FPDF  # pip install fpdf
+from dotenv import load_dotenv
 
-os.environ["OPENROUTER_API_KEY"] = "***REMOVED***"
+load_dotenv()
 
 def generate_mcqs_with_openrouter(prompt):
     headers = {
